@@ -15,7 +15,7 @@ const Highlights = () => {
           <div className="bg-gray-900 rounded-3xl p-8">
             <img
               className="w-full rounded-2xl mb-4"
-              src="../../public/img/titanium-design.jpg"
+              src="./src/assets/img/titanium-design.jpg"
               alt="Iphone Titanium"
             />
             <h3 className="font-bold mb-2 text-3xl">Titanio Premium</h3>
@@ -28,7 +28,7 @@ const Highlights = () => {
           <div className="bg-gray-900 rounded-3xl p-8">
             <img
               className="w-full rounded-2xl mb-4"
-              src="../../public/img/ios-features.jpg"
+              src="./src/assets/img/ios-features.jpg"
               alt="ios 2025"
             />
             <h3 className="font-bold mb-2 text-3xl">Ios 19</h3>
@@ -45,7 +45,7 @@ const Highlights = () => {
           </p>
           <img
             className="w-full rounded-2xl mb-4"
-            src="../../public/img/chip-a18-pro.jpg"
+            src="./src/assets/img/chip-a18-pro.jpg"
             alt="chip a18"
           />
 

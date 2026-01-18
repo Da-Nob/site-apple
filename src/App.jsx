@@ -9,10 +9,10 @@ function App() {
 
   return (
     <div>
-          <Navbar />
-          <Hero />
-          <Intro />
-          <Highlights />
+      <Navbar />
+      <Hero />
+      <Intro />
+      <Highlights />
       <Colors />
       <Footer />
     </div>
