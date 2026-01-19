@@ -1,24 +1,27 @@
 import React from "react";
 import { useState } from "react";
+import iphoneBlue from "../assets/img/iphone-blue.jpg";
+import iphoneSilver from "../assets/img/iphone-silver.jpg";
+import iphoneOrange from "../assets/img/iphone-orange.jpg";
 
 const Colors = () => {
   const colors = [
     {
       id: "blue",
       name: "Titânio Azul",
-      image: "src/assets/img/iphone-blue.jpg",
+      image: iphoneBlue,
       colorClass: "bg-blue-500",
     },
     {
       id: "silver",
       name: "Titânio Natural",
-      image: "src/assets/img/iphone-silver.jpg",
+      image: iphoneSilver,
       colorClass: "bg-gray-300",
     },
     {
       id: "orange",
       name: "Titânio Laranja",
-      image: "src/assets/img/iphone-orange.jpg",
+      image: iphoneOrange,
       colorClass: "bg-orange-500",
     },
   ];
@@ -57,11 +60,11 @@ const Colors = () => {
 
       <div className="flex justify-center mb-12">
         <div className="relative w-full max-w-3xl">
-          <div className="relative flex items-center justify-center min-h-[500px]">
+          <div className="relative flex items-center justify-center min-h-125">
             <img
               src={colors.find((color) => color.id === selectedColor).image}
               alt="Imagens"
-              className="max-w-full max-h-[600px] mx-auto"
+              className="max-w-full max-h-150 mx-auto"
             />
           </div>
 
@@ -92,7 +95,7 @@ const Colors = () => {
         {models.map( (model, index) => (
           <div
             key={index}
-            className="bg-gradient-to-br from-gray-900 to-transparent rounded-3xl p-8 border border-gray-800">
+            className="bg-linear-to-br from-gray-900 to-transparent rounded-3xl p-8 border border-gray-800">
             <div className="text-4xl mb-4">📱</div>
             <h3 className="text-2xl font-bold mb-3">{model.name}</h3>
             <p className="text-gray-400 mb-4">{model.screen}</p>
